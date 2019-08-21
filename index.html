@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="canvas">
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBPLC_YAptjytAGaOvlMhXRR59F9SrRUNo",
+            authDomain: "d3-tutorial-ab37a.firebaseapp.com",
+            databaseURL: "https://d3-tutorial-ab37a.firebaseio.com",
+            projectId: "d3-tutorial-ab37a",
+            storageBucket: "d3-tutorial-ab37a.appspot.com",
+            messagingSenderId: "304156354574",
+            appId: "1:304156354574:web:fa0e83ea99450442"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+    <script src="assets/js/d3.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
